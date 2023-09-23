@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>CourseController.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d55fde;}
+.s1 { color: #bbbbbb;}
+</style>
+</head>
+<body bgcolor="#282c34">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+CourseController.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com.javaproject1.learspringboot;</span>
+
+<span class="s0">import </span><span class="s1">java.lang.reflect.Array;</span>
+<span class="s0">import </span><span class="s1">java.util.ArrayList;</span>
+
+<span class="s0">public class </span><span class="s1">CourseController </span><span class="s0">extends </span><span class="s1">Course{</span>
+
+    <span class="s0">private </span><span class="s1">ArrayList&lt;Course&gt; Listofcoursr;</span>
+    <span class="s0">public </span><span class="s1">CourseController(</span><span class="s0">int </span><span class="s1">courseID, String courseName, </span><span class="s0">double </span><span class="s1">coursePrice) {</span>
+        <span class="s0">super</span><span class="s1">(courseID, courseName, coursePrice);</span>
+    <span class="s1">}</span>
+
+
+    <span class="s0">public </span><span class="s1">ArrayList&lt;Course&gt; getListofcoursr() {</span>
+        <span class="s0">return </span><span class="s1">Listofcoursr;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public void </span><span class="s1">setListofcoursr(ArrayList&lt;Course&gt; listofcoursr) {</span>
+        <span class="s1">Listofcoursr = listofcoursr;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
